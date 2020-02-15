@@ -17,4 +17,8 @@ Allows to control a RC transmitter module using an Arduion. The communication to
 
 ![](schematics.jpg)
 
+## Case
+
+STL files for a nice case for the transmitter module and the arduino can be found on thingiverse: https://www.thingiverse.com/thing:4165174
+
 
