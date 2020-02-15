@@ -15,6 +15,6 @@ Allows to control a RC transmitter module using an Arduion. The communication to
 * Ensure common ground!
 * Connect your computer using a micro-USB cable to the arduino.
 
-![](Schematics.jpg)
+![](schematics.jpg)
 
 
