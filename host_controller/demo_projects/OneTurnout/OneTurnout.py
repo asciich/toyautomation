@@ -19,7 +19,7 @@ def main():
 
     servo_and_sensors = toy_automation.get_servo_device()
 
-    main_turnout = servo_and_sensors.define_turnout(servo_number=0, straight_degrees=60, curve_degrees=120)
+    main_turnout = servo_and_sensors.define_turnout(servo_number=0, straight_degrees=62, curve_degrees=100)
     main_turnout.set_position_straight()
 
     straight_end_sensor = servo_and_sensors.get_digital_sensor(input_number=0)
