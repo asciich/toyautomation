@@ -1,7 +1,8 @@
 # OneTurnout demo project
 
-Demonstrates working train position detection and train remote control.
+Demonstrates working train position detection and train remote control. 
 
+See the demo video:
 [![OneTurnout demo](https://img.youtube.com/vi/IBD5xJxprtU/0.jpg)](https://www.youtube.com/watch?v=IBD5xJxprtU)
 
 ## Components
