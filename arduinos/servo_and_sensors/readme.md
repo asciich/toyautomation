@@ -14,5 +14,5 @@ Not ready yet, sorry.
 
 ## Digital sensors
 
-* For Brio trian detection I use a (light sensor)[https://www.banggood.com/5V3_3V-3-Pin-Photosensitive-Sensor-Module-Light-Sensing-Resistor-Module-p-1387573.html?cur_warehouse=CN] mounted to a (3d printed rail)[https://www.thingiverse.com/thing:4139498].
+* For Brio trian detection I use a [light sensor](https://www.banggood.com/5V3_3V-3-Pin-Photosensitive-Sensor-Module-Light-Sensing-Resistor-Module-p-1387573.html?cur_warehouse=CN) mounted to a [3d printed rail](https://www.thingiverse.com/thing:4139498).
 
