@@ -2,7 +2,7 @@
 
 Electrical toy automation project. 
 
-Very early development state but already made some fun.
+Very early development state but I already had some fun.
 
 ## Project structure
 
