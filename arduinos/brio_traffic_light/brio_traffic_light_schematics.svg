@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64.295013mm"
+   height="40.856522mm"
+   viewBox="0 0 64.295013 40.856522"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="brio_traffic_light_schematics.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.8155456"
+     inkscape:cx="-60.863246"
+     inkscape:cy="57.283055"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       originx="-11.906249"
+       originy="-30.587743" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.90625,-30.587743)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="M 15.875,35.71875 H 75.406249"
+       id="path164" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+       x="15.875"
+       y="33.072918"
+       id="text898"><tspan
+         sodipodi:role="line"
+         id="tspan896"
+         style="stroke-width:0.265;stroke-dasharray:none"
+         x="15.875"
+         y="33.072918">3.3V from Arduino UNO</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 22.489583,51.593749 v 2.645834 h -1.322917 v 5.291666 h 1.322917 v 6.614584"
+       id="path950"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="M 22.489583,59.531249 H 23.8125 V 54.239583 H 22.225"
+       id="path952" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 22.489583,39.6875 v 2.645833 h -1.322917 l 1.322917,2.645833 H 21.166666 23.8125 22.489583 V 47.625 44.979166 L 23.8125,42.333333 h -1.322917"
+       id="path1062"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24.60625,43.656249 1.322916,-1.322916 h -0.79375 0.79375 v 0.79375"
+       id="path1113" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24.606251,44.979166 1.322916,-1.322916 h -0.79375 0.79375 V 44.45"
+       id="path1113-3" />
+    <path
+       style="fill:none;stroke:#005000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 60.854164,39.687499 v 2.645833 h -1.322917 l 1.322917,2.645833 h -1.322917 2.645834 -1.322917 v 2.645834 -2.645834 l 1.322917,-2.645833 h -1.322917"
+       id="path1062-6"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="fill:none;stroke:#005000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.970831,43.656248 1.322916,-1.322916 h -0.79375 0.79375 v 0.79375"
+       id="path1113-7" />
+    <path
+       style="fill:none;stroke:#005000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.970832,44.979165 1.322916,-1.322916 h -0.79375 0.79375 v 0.79375"
+       id="path1113-3-5" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       x="15.033418"
+       y="43.457493"
+       id="text1183"><tspan
+         sodipodi:role="line"
+         id="tspan1181"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="15.033418"
+         y="43.457493">Red</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="15.033418"
+         y="47.426243"
+         id="tspan1185">LED</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#005000;fill-opacity:1;stroke:#005000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       x="48.767792"
+       y="43.457489"
+       id="text1183-6"><tspan
+         sodipodi:role="line"
+         id="tspan1181-2"
+         style="fill:#005000;fill-opacity:1;stroke:#005000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="48.767792"
+         y="43.457489">Green</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#005000;fill-opacity:1;stroke:#005000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="48.767792"
+         y="47.426239"
+         id="tspan1185-9">LED</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       x="24.870832"
+       y="57.943748"
+       id="text1989"><tspan
+         sodipodi:role="line"
+         id="tspan1987"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.265;stroke-linejoin:miter"
+         x="24.870832"
+         y="57.943748">330 Ohm</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 60.854166,51.59375 v 2.645834 h -1.322917 v 5.291666 h 1.322917 l -2e-6,6.614581"
+       id="path950-1"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 60.854166,59.53125 h 1.322917 v -5.291666 h -1.5875"
+       id="path952-2" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       x="63.235416"
+       y="57.943745"
+       id="text1989-7"><tspan
+         sodipodi:role="line"
+         id="tspan1987-0"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.265;stroke-linejoin:miter"
+         x="63.235416"
+         y="57.943745">330 Ohm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#080000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       x="11.984775"
+       y="67.269989"
+       id="text2725-3"><tspan
+         sodipodi:role="line"
+         id="tspan2723-6"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.265"
+         x="11.984775"
+         y="67.269989">PIN 2</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.265"
+         x="11.984775"
+         y="71.238739"
+         id="tspan2810">Arduino UNO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#080000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       x="51.936855"
+       y="67.269989"
+       id="text2725-3-0"><tspan
+         sodipodi:role="line"
+         id="tspan2723-6-6"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.265"
+         x="51.936855"
+         y="67.269989">PIN 3</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.265"
+         x="51.936855"
+         y="71.238739"
+         id="tspan2810-2">Arduino UNO</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#080000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="path2903"
+       cx="22.489584"
+       cy="66.675003"
+       r="0.52916664" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#080000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="path2903-6"
+       cx="60.854164"
+       cy="66.675003"
+       r="0.52916664" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#080000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 22.489583,35.71875 V 39.6875"
+       id="path2932" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#080000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 60.854166,35.71875 V 39.6875"
+       id="path2934" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#080000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 60.854166,47.624999 v 3.96875"
+       id="path2936" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#080000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 22.489583,47.624999 v 3.96875"
+       id="path2938" />
+  </g>
+</svg>
