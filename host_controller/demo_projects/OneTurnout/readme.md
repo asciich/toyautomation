@@ -7,7 +7,7 @@ See the demo video:
 
 ## Components
 
-Uses these two harware projects:
+Uses these two hardware projects:
 
 * [ppm_rc_controller](../../arduinos/ppm_rc_controller/)
 * [servo_and_sensors](../../arduinos/servo_and_sensors/)
@@ -16,4 +16,8 @@ Uses these two harware projects:
 ## Getting started
 
 * Connect everything
-* run: ```./OneTurnout.py```
+* run:
+
+```bash
+tox
+```

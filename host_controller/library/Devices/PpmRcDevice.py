@@ -1,3 +1,4 @@
+
 from Devices.DeviceBase import DeviceBase
 from Devices.PpmRcActors.Train import Train
 
@@ -24,8 +25,8 @@ class PpmRcDevice(DeviceBase):
     def is_xjt_device(self):
         return True
 
-    def define_train(self, channel_number):
-        train = Train(channel_number=channel_number)
+    def define_train(self, channel_number: int, name: str = '') -> Train:
+        train = Train(channel_number=channel_number, name=name)
         self._actors.append(train)
         return train
 

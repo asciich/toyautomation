@@ -1,3 +1,5 @@
+import logging
+
 
 class PpmRcActorsBase(object):
 
@@ -13,3 +15,7 @@ class PpmRcActorsBase(object):
 
     def set_channel_value(self, new_value):
         self._channel_value = new_value
+        logging.debug('Channel "{channel_number}" set to "{channel_value}".'.format(
+            channel_number=self._channel_number,
+            channel_value=self._channel_value
+        ))

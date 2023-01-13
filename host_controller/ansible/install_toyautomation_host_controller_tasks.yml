@@ -1,0 +1,33 @@
+---
+# Sources:
+# - https://pimylifeup.com/raspberry-pi-playstation-controllers/
+# - https://custom-build-robots.com/raspberry-pi-elektronik/playstation-ps3-controller-bluetooth-einrichten-am-raspberry-pi-mit-raspbian/9909
+
+- name: "Set host controller vars"
+  set_fact:
+    toyautomation_dir: "/opt/toyautomation/"
+    ve_toyautomation_path: "/opt/ve_toyautomation"
+
+- name: "Include PS3 controller tools installation"
+  include_tasks: ./install_ps3_controller_tools_tasks.yml
+
+- name: "Install virtualenv for toyautomation"
+  pip:
+    virtualenv: "{{ ve_toyautomation_path }}"
+    name:
+      - pyserial
+      - pynput
+    state: latest
+
+- name: "Copy host_controller files"
+  synchronize:
+    src: "../../host_controller/"
+    dest: "{{ toyautomation_dir }}/"
+    recursive: yes
+    rsync_opts:
+      - "-m"
+      - "--include=*/"
+      - "--include=*.py"
+      - "--exclude=*"
+  become: yes
+
