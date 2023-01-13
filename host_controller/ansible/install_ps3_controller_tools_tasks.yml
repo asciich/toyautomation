@@ -1,0 +1,59 @@
+---
+# Sources:
+# - https://pimylifeup.com/raspberry-pi-playstation-controllers/
+# - https://custom-build-robots.com/raspberry-pi-elektronik/playstation-ps3-controller-bluetooth-einrichten-am-raspberry-pi-mit-raspbian/9909
+
+- name: "set sixpair dir"
+  set_fact:
+    sixpair_dir: "/opt/sixpair/"
+
+- name: "Install needed packages for sixpair"
+  package:
+    name:
+      - bluetooth
+      - expect
+      - libbluetooth3
+      - libusb-dev
+    state: present
+  become: yes
+
+- name: "Enable bluetooth service"
+  service:
+    name: bluetooth
+    state: started
+    enabled: yes
+  become: yes
+
+- name: "Add pi user to the bluetooth group"
+  user:
+    name: pi
+    groups: bluetooth
+    append: yes
+  become: yes
+
+- name: "Create directory to build sixpair"
+  file:
+    path: "{{ sixpair_dir }}"
+    state: directory
+  become: yes
+
+- name: "Copy sixpair source"
+  copy:
+    src: ./files/sixpair.c
+    dest: "{{ sixpair_dir }}/sixpair.c"
+  become: yes
+
+- name: "Compile sixpair"
+  shell: gcc -o sixpair sixpair.c -lusb
+  args:
+    chdir: "{{ sixpair_dir }}"
+  become: yes
+
+- name: "Check sixpair compiled"
+  stat:
+    path: "{{ sixpair_dir }}/sixpair"
+  register: sixpair_stat
+
+- name: "Check sixpair compiled"
+  assert:
+    that: sixpair_stat.stat.exists
