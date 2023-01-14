@@ -7,3 +7,7 @@ Currently only a simple time based traffic light as shown here:
 # Schematics
 
 ![](brio_traffic_light_schematics.svg)
+
+# Additional information
+
+[asciich.ch Einfache Ampel für Brio-Bahn](https://asciich.ch/wordpress/einfache-ampel-fuer-brio-bahn/)
