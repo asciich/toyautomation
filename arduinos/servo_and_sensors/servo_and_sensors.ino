@@ -1,4 +1,4 @@
-#include <Servo.h>
+#include "SweepingServo.hpp"
 
 /**
  * Toy automation lenoardo servo
@@ -30,56 +30,6 @@ const int SERVO_OUT_PIN_7 = 7;
 const int SERVO_VALUE_MIN = 0;
 const int SERVO_VALUE_MAX = 180;
 const int SERVO_VALUE_CENTER = 90;
-
-class SweepingServo {
-  private: // contstants:
-    const int TOGGLE_STATUS_IDLE = 0;
-    const int TOGGLE_STATUS_POS1 = 1;
-    const int TOGGLE_STATUS_POS2 = 2;
-  
-  private: // members
-    Servo m_servo;
-    int m_current_position = 90;
-    int m_target_position = 90;
-    int m_position_step = 2;
-
-    int m_max_position = 170; // not all servos support 180 degrees angle
-    int m_min_position = 10; // not all servos support 0 degrees angle
-
-    int m_toggle_position_1 = -1;
-    int m_toggle_position_2 = -1;
-    int m_toggle_step = TOGGLE_STATUS_IDLE;
-
-  public: // functions
-    void attach(const int pin_number) {
-      this->m_servo.attach(pin_number);
-    }
-
-    void write(int new_position) {
-      this->m_target_position = new_position;
-    }
-
-    int read() {
-      return this->m_current_position;
-    }
-
-    bool is_position_reached() {
-      if (this->m_current_position == this->m_target_position) {
-        return true;
-      } else {
-        return false;
-      }
-    }
-    
-    void update() {
-      if (this->is_position_reached()) {
-        return;
-      }
-      
-      this->m_servo.write(this->m_target_position);
-      this->m_current_position = this->m_target_position;
-    }
-};
 
 class SensorInput {
 
