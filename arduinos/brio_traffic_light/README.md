@@ -2,7 +2,7 @@
 
 Currently only a simple time based traffic light as shown here:
 
-[![Brio traffic light](https://img.youtube.com/vi/XHt1TaNC6bQ0.jpg)](https://www.youtube.com/watch?v=XHt1TaNC6bQ)
+[![Brio traffic light](https://img.youtube.com/vi/XHt1TaNC6bQ/0.jpg)](https://www.youtube.com/watch?v=XHt1TaNC6bQ)
 
 # Schematics
 
