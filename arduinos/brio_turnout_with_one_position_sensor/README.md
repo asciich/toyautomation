@@ -7,4 +7,4 @@ Automatically switches position for every train:
 
 # Additional information
 
-[asciich.ch Automatische Weiche für Briobahn]()
+[asciich.ch Automatische Weiche für Briobahn](https://asciich.ch/wordpress/automatische-weiche-fuer-briobahn/)

@@ -7,7 +7,12 @@ Very early development state but already made some fun.
 ## Example
 
 [Marble Eleavtor](arduinos/marble_elevator/):
+
 [![Marble elevator](https://img.youtube.com/vi/U0S0tXroWMo/0.jpg)](https://www.youtube.com/watch?v=U0S0tXroWMo)
+
+[Brio turnout with one positiion sensor](arduinos/brio_turnout_with_one_position_sensor)
+
+[![Brio turnout with on position sensor](https://img.youtube.com/vi/rSWjzaiXRP0/0.jpg)](https://www.youtube.com/watch?v=rSWjzaiXRP0)
 
 
 ## Project structure
