@@ -57,6 +57,14 @@ class SweepingServo {
       return this->m_current_position;
     }
 
+    void toggle_between_min_and_max_position() {
+      if (this->is_at_max_position()) {
+        this->set_to_min_position();
+      } else {
+        this->set_to_max_position();
+      }
+    }
+
     bool is_position_reached() {
       if (this->m_current_position == this->m_target_position) {
         return true;
@@ -65,6 +73,21 @@ class SweepingServo {
       }
     }
     
+    bool is_at_max_position() {
+      return this->m_current_position == this->m_max_position;
+    }
+
+    bool is_at_min_position() {
+      return this->m_current_position == this->m_min_position;
+    }
+
+    bool trim(int min_position, int center_position, int max_position) {
+      this->m_max_position = max_position;
+      this->m_min_position = min_position;
+      this->m_max_position = max_position;
+      return true;
+    }
+
     void update() {
       if (this->is_position_reached()) {
         return;
