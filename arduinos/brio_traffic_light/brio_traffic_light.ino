@@ -1,9 +1,3 @@
-/*
-  
-*/
-
-// the setup function runs once when you press reset or power the board
-
 const int GREEN_LED_PIN = 3;
 const int RED_LED_PIN = 2; 
 
@@ -14,7 +8,6 @@ const int PIN_VALUE_ON = LOW; // minus of the LED is connected to the input pin,
 const int PIN_VALUE_OFF = HIGH; // minus of the LED is connected to the input pin, so it is inverted!
 
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(GREEN_LED_PIN, OUTPUT);
   pinMode(RED_LED_PIN, OUTPUT);
@@ -40,7 +33,6 @@ void turnRed() {
   builtinLedOff();
 }
 
-// the loop function runs over and over again forever
 void loop() {
   turnGreen();
   delay(1000 * GREEN_PHASE_SECONDS);
