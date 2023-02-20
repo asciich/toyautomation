@@ -44,6 +44,8 @@ class StateMachine {
 
         bool m_is_serial_debugging_enabled = false;
 
+        int m_updateCounter = 0;
+
     public: // constructors
         StateMachine(String stateMachineName) {
             this->m_state_machine_name = stateMachineName;
@@ -77,6 +79,15 @@ class StateMachine {
         }
 
         void update() {
+            this->m_updateCounter += 1;
+            if (this->m_updateCounter % 1000 == 0) {
+                Serial.print(this->getStateMachineName());
+                Serial.print("': ");
+                Serial.print("Current state '");
+                Serial.print(this->m_current_state.getStateName());
+                Serial.println("'");
+            } 
+
             if (this->m_current_state == this->m_next_state) {
                 return;
             }
